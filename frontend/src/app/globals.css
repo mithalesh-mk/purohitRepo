@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-:root {
+@theme {
   --background: #EDC7B7;
   --foreground: #EEE2DC;
   --background2: #123C69;
@@ -11,19 +11,6 @@
 
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: var(--background);
-    --foreground: #ededed;
-  }
-} 
-
-body {
-  background: var(--background);
-  color: black;
-  font-family: var(--font-pt);
-}
 
 
 
